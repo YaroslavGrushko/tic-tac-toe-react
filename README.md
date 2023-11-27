@@ -1,4 +1,4 @@
-This project is a basic example of using **Vite**, **React**, **Redux Toolkit** and **React Router** together.  
+This project is a basic example of using [**Vite**](https://vitejs.dev/), [**React**](https://react.dev/), [**Redux Toolkit**](https://redux-toolkit.js.org/) and [**React Router**](https://reactrouter.com/en/main) together.  
 
 **Get Started**  
 1. Clone this repository to your local computer;
