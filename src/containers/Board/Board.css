@@ -1,0 +1,12 @@
+.board {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
+.square {
+  width: 30%;
+  aspect-ratio: 1/1;
+  font-size: 40px;
+  border: 2px solid #000000;
+  cursor: pointer;
+}

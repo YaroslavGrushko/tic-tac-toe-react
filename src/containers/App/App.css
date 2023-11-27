@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* AppLayout */
+.app-content {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.page-content {
+  padding: 20px 0 20px 0;
+}
