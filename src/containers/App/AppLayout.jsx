@@ -5,7 +5,9 @@ const AppLayout = () => {
   const mainMessage = useSelector((state) => state.app.mainMessage);
   return (
     <div className="app-content">
-      <header>Tic-tac-toe</header>
+      <header>
+        <h1 className="text-3xl font-bold underline">Tic-tac-toe</h1>
+      </header>
       <div className="navigation">
         <Link to={`/`} className="button">
           Home

@@ -1,11 +1,12 @@
 import { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useAppSelector, useAppDispatch } from "../../hooks/hooks";
 import { setMainMessage } from "../../state/ducks/appSlice";
+
 import "./EditPage.css";
 
 const EditPage = () => {
-  const dispatch = useDispatch();
-  const mainMessage = useSelector((state) => state.app.mainMessage);
+  const dispatch = useAppDispatch();
+  const mainMessage = useAppSelector((state) => state.app.mainMessage);
   const [message, setMessage] = useState(mainMessage);
 
   const onChange = (event) => {

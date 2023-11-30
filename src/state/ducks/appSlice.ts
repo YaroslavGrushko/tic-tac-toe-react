@@ -1,12 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
+import type { PayloadAction } from "@reduxjs/toolkit";
+
+interface appState {
+  mainMessage: string;
+}
+
+const initialState: appState = {
+  mainMessage: "",
+};
 
 const appSlice = createSlice({
   name: "app",
-  initialState: {
-    mainMessage: "",
-  },
+  initialState,
   reducers: {
-    setMainMessage(state, action) {
+    setMainMessage(state, action: PayloadAction<string>) {
       state.mainMessage = action.payload;
     },
   },
